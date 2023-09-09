@@ -1,0 +1,106 @@
+nav{
+    border: 2px solid green;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 5px;
+    
+}
+nav .logo{
+    width: 50px;
+    justify-content: left;
+    
+}
+nav .logo img{
+    width: 100%;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    padding-left: 100px;
+}
+nav button{
+    display: inline-block;
+    justify-content: right;
+    justify-content: flex-end;
+    
+}
+.login{
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    width: 70px;
+    height: 20px;
+   margin: 15px 0px 15px 180px;
+   color: black;
+}
+.SignUp{
+    border: none;
+    background: auto;
+    width: 70px;
+    height: 20px;
+    margin: 15px 1px 15px 1px ;
+    color: white;
+   
+}
+
+section{
+    border: 2px solid green;
+    display: flex;
+    height: 400px;
+    margin-top: 20px;
+}
+.box_one{
+    border: 2px solid purple;
+    width: 700px;
+    margin: 5px;
+}
+.box_two{
+    border: 2px solid red;
+    width: 500px;
+    margin: 5px;
+     background:url(./meee/netflix_PNG15.png);
+     background-size: 220px;
+     background-repeat: no-repeat;
+     background-position: left;
+}
+.innerbox_one{
+    border: 2px solid red;
+    height: 180px;
+    margin: 5px;
+    display: flex;
+    
+}
+.innerbox_two{
+    border: 2px solid yellow;
+    height: 180px;
+    margin: 5px;
+    display: flex;
+  
+}
+
+.image{
+    display: flex;
+    justify-content:left;
+    width: 50%;
+    margin: 2px;
+   
+
+}
+.box_two p{
+margin: 5px;
+padding: 5px;
+}
+button{
+    width: 490px;
+    background-color: rgb(255, 119, 0) ;
+    border: none;
+    color: white;
+    height: 20px;
+    margin: 5px;
+}
+
+
+
